@@ -1,0 +1,5 @@
+body { background: #f7f7f7; }
+nav { margin-bottom: 2rem; }
+h1, h2, h3 { color: #2a4973; }
+#alertBox { position: fixed; top: 10px; right: 10px; z-index: 9999; min-width: 300px; }
+.table td, .table th { vertical-align: middle; }

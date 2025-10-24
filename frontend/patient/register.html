@@ -1,0 +1,18 @@
+<form id="regForm">
+  <!-- name, abha_id, password, etc. -->
+  <button type="submit">Register</button>
+</form>
+<script>
+document.getElementById('regForm').onsubmit = async (e) => {
+  e.preventDefault();
+  const data = {
+    name: ..., abha_id: ..., password: ..., // get from form inputs
+  };
+  const res = await fetch('http://localhost:3000/api/auth/register', {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json' },
+    body: JSON.stringify(data)
+  });
+  // handle response
+};
+</script>
